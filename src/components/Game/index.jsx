@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 /* Location 10 */
 /* Location 15 */
 import Video from '../Video';
-import Modal from '../Modal';
 
 class Game extends Component {
   constructor(props) {
@@ -15,7 +14,7 @@ class Game extends Component {
   }
 
   componentDidMount() {
-    
+
   }
 
 

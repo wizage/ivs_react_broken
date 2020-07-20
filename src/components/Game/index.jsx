@@ -15,28 +15,9 @@ class Game extends Component {
   }
 
   componentDidMount() {
-    this.listenForQuestions();
-    this.listenForAnswers();
-    this.setupClient();
+    
   }
 
-  setupClient = () => {
-    /* Location 16 */
-  }
-
-  listenForQuestions = () => {
-    const self = this;
-    /* Location 11 */
-  }
-
-  listenForAnswers = () => {
-    const self = this;
-    /* Location 12 */
-  }
-
-  callbackFunction = (childData) => {
-    /* Location 14 */
-  }
 
   render() {
     /* Location 9 */
@@ -45,7 +26,6 @@ class Game extends Component {
     return (
       <div className="game-container">
         <Video />
-        <Modal className={modalVisible ? 'show' : 'hidden'} drawInfo={drawInfo} />
       </div>
     );
   }
